@@ -1,0 +1,33 @@
+PROYECTO DE ALGORITMICA 2 - PARQUEO SANMARQUINO
+
+1. Crear un schema en MySQL con nombre: "proyecto_parqueo"
+2. Ejecutar el script todo lo de abajo, luego de crear el schema
+
+
+create table parqueo(
+id_parqueo int auto_increment primary key,
+nombres varchar(50),
+apellidos varchar(100),
+placa varchar(8),
+marca varchar(50),
+modelo varchar(50),
+hora_entrada char(2),
+minuto_entrada char(2),
+hora_salida char(2),
+minuto_salida char(2),
+estado int
+);
+
+
+
+3. Abrir la carpeta del proyecto en NetBeans
+4. Hacer click derecho en "Libraries" y click en Add JAR/folder
+5. Buscar en la carpeta del proyecto, la carpeta "dist" y seleccionar "mysql-connector-java-8.0.26.jar" y click en OPEN
+6. Verificar las credenciales de la conexión a la BD Mysql en el archivo "Conexion.java".
+	"aca verifican el usuario y contraseña del mysql"
+
+7. Ejecutar el proyecto
+
+//////////////////////////////
+///////////Orestes////////////
+//////////////////////////////
